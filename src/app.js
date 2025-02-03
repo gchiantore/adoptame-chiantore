@@ -11,7 +11,7 @@ import mockingRouter from "./routes/mocks.router.js";
 const app = express();
 const PORT = process.env.PORT||8080;
 mongoose.set('strictQuery', true);
-const connection = mongoose.connect(`mongodb+srv://coderChiantore:coderChiantore@cluster0.e3kdu.mongodb.net/adoptame`)
+const connection = mongoose.connect(``)
 
 app.use(express.json());
 app.use(cookieParser());
